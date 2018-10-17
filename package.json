@@ -2,7 +2,7 @@
     "name": "recompose-snippets",
     "displayName": "React Recompose snippets",
     "description": "Code snippets for the awesome React lib Recompose",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "mklan",
     "icon": "images/logo.png",
     "keywords": [
