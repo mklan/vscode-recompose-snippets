@@ -6,7 +6,7 @@
 
 This extension provides [Recompose](https://github.com/acdlite/recompose/) snippets for [Vs Code](https://code.visualstudio.com/)
 
-Here is direct link to marketplace [Recompose Snippets](https://marketplace.visualstudio.com/items?itemName=mklan.recompose-snippets)
+Direct link to marketplace [Recompose Snippets](https://marketplace.visualstudio.com/items?itemName=mklan.recompose-snippets)
 
 ## Snippets
 
