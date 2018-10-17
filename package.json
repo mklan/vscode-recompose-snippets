@@ -1,7 +1,7 @@
 {
     "name": "recompose-snippets",
     "displayName": "React Recompose snippets",
-    "description": "Code sippets for the awesome React lib Recompose",
+    "description": "Code snippets for the awesome React lib Recompose",
     "version": "0.1.0",
     "publisher": "mklan",
     "icon": "images/logo.png",
