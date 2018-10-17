@@ -1,0 +1,45 @@
+{
+    "recompose container": {
+        "prefix": "rec",
+        "description": "creates recompose container",
+        "body": [
+            "import React from 'react';",
+            "import { compose } from 'recompose';",
+            "",
+            "const ${1:Component} = ({ ${2:someProp} }) => (",
+            "		$0",
+            ");",
+            "",
+            "export default compose(",
+            "",
+            ")(${1:Component});"
+        ]
+    },
+    "recompose withHandlers": {
+        "prefix": "withH",
+        "description": "creates recompose withHandlers",
+        "body": [
+            "withHandlers({",
+              "    ${1:yourHandler}: ({ ${2:someProp} }) => (${3:val}) => {",
+              "       $0",
+              "    },",
+            "}),"
+        ]
+    },
+    "recompose handler": {
+        "prefix": "rech",
+        "description": "creates recompose handler",
+        "body": [
+            "${1:yourHandler}: ({ ${2:someProp} }) => (${3:val}) => {",
+            "   $0",
+            "},"
+        ]
+    },
+    "recompose withState": {
+        "prefix": "withS",
+        "description": "creates recompose withState",
+        "body": [
+            "withState('${1:prop}', '${2:setProp}'$0),"
+        ]
+    }
+}
