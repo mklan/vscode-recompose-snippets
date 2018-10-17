@@ -4,7 +4,7 @@
 [![Install](https://vsmarketplacebadge.apphb.com/installs/mklan.recompose-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/mklan.recompose-snippets.svg)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/mklan.recompose-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-short/mklan.recompose-snippets.svg)
 
-This extension provides [Recompose](https://github.com/acdlite/recompose/) snippets in for [Vs Code](https://code.visualstudio.com/)
+This extension provides [Recompose](https://github.com/acdlite/recompose/) snippets for [Vs Code](https://code.visualstudio.com/)
 
 Here is direct link to marketplace [Recompose Snippets](https://marketplace.visualstudio.com/items?itemName=mklan.recompose-snippets)
 
@@ -20,7 +20,7 @@ Here is direct link to marketplace [Recompose Snippets](https://marketplace.visu
   import { compose } from 'recompose';
   
   const ${1:Component} = ({ ${2:someProp} }) => (
-    $0
+    	    $0
 	);
 			
   export default compose(
@@ -35,7 +35,7 @@ Here is direct link to marketplace [Recompose Snippets](https://marketplace.visu
 ```javascript
   withHandlers({
     ${1:yourHandler}: ({ ${2:someProp} }) => (${3:val}) => {
-      $0  
+    	$0  
     },
   }),
 ```
@@ -46,7 +46,7 @@ Here is direct link to marketplace [Recompose Snippets](https://marketplace.visu
 
 ```javascript
   ${1:yourHandler}: ({ ${2:someProp} }) => (${3:val}) => {
-    $0  
+  	$0  
   },
 ```
 
