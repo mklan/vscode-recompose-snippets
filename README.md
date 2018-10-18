@@ -12,7 +12,7 @@ Direct link to marketplace [Recompose Snippets](https://marketplace.visualstudio
 
 ### `rec→`
 
-![rec preview](https://github.com/mklan/vscode-recompose-snippets/blob/master/previews/recompose.gif)
+![rec preview](https://github.com/mklan/vscode-recompose-snippets/blob/master/previews/recompose.gif?raw=true)
 
 
 ```javascript
@@ -30,7 +30,7 @@ Direct link to marketplace [Recompose Snippets](https://marketplace.visualstudio
 
 ### `withH→`
 
-![withH preview](https://github.com/mklan/vscode-recompose-snippets/blob/master/previews/withHandlers.gif)
+![withH preview](https://github.com/mklan/vscode-recompose-snippets/blob/master/previews/withHandlers.gif?raw=true)
 
 ```javascript
   withHandlers({
@@ -42,7 +42,7 @@ Direct link to marketplace [Recompose Snippets](https://marketplace.visualstudio
 
 ### `rech→`
 
-![rech preview](https://github.com/mklan/vscode-recompose-snippets/blob/master/previews/handler.gif)
+![rech preview](https://github.com/mklan/vscode-recompose-snippets/blob/master/previews/handler.gif?raw=true)
 
 ```javascript
   ${1:yourHandler}: ({ ${2:someProp} }) => (${3:val}) => {
@@ -52,7 +52,7 @@ Direct link to marketplace [Recompose Snippets](https://marketplace.visualstudio
 
 ### `withS→`
 
-![withS preview](https://github.com/mklan/vscode-recompose-snippets/blob/master/previews/withState.gif)
+![withS preview](https://github.com/mklan/vscode-recompose-snippets/blob/master/previews/withState.gif?raw=true)
 
 ```javascript
   withState('${1:prop}', '${2:setProp}'$0),
