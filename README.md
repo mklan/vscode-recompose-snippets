@@ -1,8 +1,8 @@
 # VS Code Recompose snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/mklan.recompose-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/mklan.recompose-snippets.svg)
-[![Install](https://vsmarketplacebadge.apphb.com/installs/mklan.recompose-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/mklan.recompose-snippets.svg)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/mklan.recompose-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-short/mklan.recompose-snippets.svg)
+[![Version](https://vsmarketplacebadge.apphb.com/version/mklan.recompose-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=mklan.recompose-snippets)
+[![Install](https://vsmarketplacebadge.apphb.com/installs/mklan.recompose-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=mklan.recompose-snippets)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/mklan.recompose-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=mklan.recompose-snippets)
 
 This extension provides [Recompose](https://github.com/acdlite/recompose/) snippets for [Vs Code](https://code.visualstudio.com/)
 
