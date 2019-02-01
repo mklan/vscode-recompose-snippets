@@ -1,45 +1,58 @@
 {
-    "recompose container": {
-        "prefix": "rec",
-        "description": "creates recompose container",
-        "body": [
-            "import React from 'react';",
-            "import { compose } from 'recompose';",
-            "",
-            "const ${1:Component} = ({ ${2:someProp} }) => (",
-            "		$0",
-            ");",
-            "",
-            "export default compose(",
-            "",
-            ")(${1:Component});"
-        ]
-    },
-    "recompose withHandlers": {
-        "prefix": "withH",
-        "description": "creates recompose withHandlers",
-        "body": [
-            "withHandlers({",
-              "    ${1:yourHandler}: ({ ${2:someProp} }) => (${3:val}) => {",
-              "       $0",
-              "    },",
-            "}),"
-        ]
-    },
-    "recompose handler": {
-        "prefix": "rech",
-        "description": "creates recompose handler",
-        "body": [
-            "${1:yourHandler}: ({ ${2:someProp} }) => (${3:val}) => {",
-            "   $0",
-            "},"
-        ]
-    },
-    "recompose withState": {
-        "prefix": "withS",
-        "description": "creates recompose withState",
-        "body": [
-            "withState('${1:prop}', '${2:setProp}'$0),"
-        ]
-    }
+  "recompose container": {
+    "prefix": "rec",
+    "description": "creates recompose container",
+    "body": [
+      "import React from 'react';",
+      "import { compose } from 'recompose';",
+      "",
+      "const ${1:Component} = ({ ${2:someProp} }) => (",
+      "		$0",
+      ");",
+      "",
+      "export default compose(",
+      "",
+      ")(${1:Component});"
+    ]
+  },
+  "recompose withHandlers": {
+    "prefix": "withH",
+    "description": "creates recompose withHandlers",
+    "body": [
+      "withHandlers({",
+      "    ${1:yourHandler}: ({ ${2:someProp} }) => (${3:val}) => {",
+      "       $0",
+      "    },",
+      "}),"
+    ]
+  },
+  "recompose handler": {
+    "prefix": "rech",
+    "description": "creates recompose handler",
+    "body": [
+      "${1:yourHandler}: ({ ${2:someProp} }) => (${3:val}) => {",
+      "   $0",
+      "},"
+    ]
+  },
+  "recompose withState": {
+    "prefix": "withS",
+    "description": "creates recompose withState",
+    "body": ["withState('${1:prop}', '${2:setProp}'$0),"]
+  },
+  "recompose setObservableConfig": {
+    "prefix": "soc",
+    "description": "Observables in Recompose are plain objects that conform to the ES Observable proposal. Usually, you'll want to use them alongside an observable library like RxJS so that you have access to its suite of operators. By default, this requires you to convert the observables provided by Recompose before applying any transforms. setObservableConfig() sets a global observable transform that is applied automatically.",
+    "body": ["setObservableConfig('${1:prop}')"]
+  },
+  "recompose componentFromStream": {
+    "prefix": "cfs",
+    "description": "Creates a React component by mapping an observable stream of props to a stream of React nodes.",
+    "body": ["componentFromStream(prop$ => {", "   '${1:prop$}'", "});"]
+  },
+  "recompose createEventHandler": {
+    "prefix": "ceh",
+    "description": "Returns an object with properties handler and stream. stream is an observable sequence, and handler is a function that pushes new values onto the sequence. Useful for creating event handlers like onClick.",
+    "body": ["const { handler, stream } = createEventHandler();"]
+  }
 }
